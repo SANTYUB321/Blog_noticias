@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Section = ({children}) => {
   return (
-    <section className='w-6/12'>
+    <section className='w-full h-2/4 flex flex-wrap'>
         {children}
     </section>
   )

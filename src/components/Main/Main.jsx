@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Main = ({children}) => {
   return (
-    <main className='w-full max-h bg-black'>
+    <main className='w-full max-h flex '>
         {children}
     </main>
   )
