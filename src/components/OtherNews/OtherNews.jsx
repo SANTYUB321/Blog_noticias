@@ -2,6 +2,6 @@ import React from 'react'
 
 export const OtherNews = ({children}) => {
   return (
-    <div className='bg-green-500 w-2/4 h-36 '>{children}</div>
+    <div className='flex flex-col bg-black w-2/4  h-full  place-content-center mt-6'>{children}</div>
   )
 }

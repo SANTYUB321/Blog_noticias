@@ -1,3 +1,5 @@
+import { GalleryImages } from "./GalleryImages/GalleryImages.jsx"
+import { JsonNews } from "./components/JsonNews/JsonNews.jsx"
 import { HeaderBlog } from "./components/Layouts/Header/Header"
 import { Section } from "./components/Layouts/Section/Section"
 import { Main } from "./components/Main/Main"
@@ -14,13 +16,12 @@ function App() {
     <HeaderBlog/>
     <Main>
     <Section>
-    <News>
-      <p className="text-gray-100">holaaa</p>
-    </News>
+    <News/>
       <OtherNews>
-        <p className="text-gray-100">hola</p>
+        <JsonNews/>
       </OtherNews>
     </Section>
+   <GalleryImages/>
     </Main>
     </Home>
       
