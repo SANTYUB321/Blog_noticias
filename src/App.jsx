@@ -1,4 +1,4 @@
-import { GalleryImages } from "./GalleryImages/GalleryImages.jsx"
+import { GalleryImages } from "./components/GalleryImages/GalleryImages.jsx"
 import { JsonNews } from "./components/JsonNews/JsonNews.jsx"
 import { HeaderBlog } from "./components/Layouts/Header/Header"
 import { Section } from "./components/Layouts/Section/Section"

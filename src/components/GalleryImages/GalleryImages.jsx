@@ -1,9 +1,9 @@
 import React from 'react'
 import ImageGallery from 'react-image-gallery'
 import "react-image-gallery/styles/css/image-gallery.css"
-import Prog1 from '../assets/prog-1.jpg'
-import Prog2 from '../assets/prog-2.jpg'
-import Prog3 from '../assets/prog-3.jpg'
+import Prog1 from '../../assets/prog-1.jpg'
+import Prog2 from '../../assets/prog-2.jpg'
+import Prog3 from '../../assets/prog-3.jpg'
 
 export const GalleryImages = () => {
     const images = [
